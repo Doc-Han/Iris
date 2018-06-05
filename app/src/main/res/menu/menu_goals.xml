@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.banana.iris.goals">
+
+    <item
+        android:id="@+id/remove"
+        android:icon="@drawable/ic_remove"
+        android:title="Remove"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="1"/>
+    <item
+        android:id="@+id/goal_settings_m"
+        android:title="Settings"
+        app:showAsAction="never"
+        android:orderInCategory="100"/>
+</menu>
